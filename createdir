@@ -1,0 +1,1 @@
+dir="$/user/acadgild";if $(hadoop fs -test -d "$dir" ) ; then echo "directory exists" ; else hadoop fs -mkdir "$dir" ; fi
